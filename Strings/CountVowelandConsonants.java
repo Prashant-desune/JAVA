@@ -1,0 +1,24 @@
+// Java Program to count the total number of vowels and consonants in a string
+import java.util.*;
+public class CountVowelandConsonants {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int count = 0;
+        int count1 = 0;
+        System.out.print("Enter Sentence : ");
+        String str = sc.nextLine();
+        str = str.toLowerCase(); 
+        for(int i = 0; i<str.length();i++){
+            if(str.charAt(i) == 'a'||str.charAt(i) == 'e'||str.charAt(i) == 'i'||
+            str.charAt(i) == 'o'||str.charAt(i) == 'u'){
+                count += 1; 
+            }
+            else{
+                count1 += 1; 
+            }
+        }
+        System.out.println("Number of Vowles are : " + count);
+        System.out.println("Number of Consonents  are : " + count1);
+
+    }
+}
