@@ -4,7 +4,7 @@
 
 /* -------------------------------------------------------------  How Write Classes    ------------------------------------------- */
 
-/* 
+
 class circle{
     //How to find the circle Area Perimeter Circumference   
 
@@ -38,7 +38,7 @@ public static void main(String[] args) {
         System.out.println(" circumference of the circle1 is : " +  C1.circumference());
     }
 }
-*/
+
 //!<----- Output is ------->
 /*
 
@@ -57,7 +57,7 @@ circumference of the circle1 is : 88.0
 
 
 //find the Area of A Rectangle
-/* 
+
 //creating a class
 class Rectangle{
 public double lenght;
@@ -79,7 +79,7 @@ public class class_and_objects {
         System.out.println("The Perimeter  of the rectangle is : "+ R.perimeter());
     }
 }
-*/
+
 //!<----- Output is ------->
 /*
 The Area of the rectangle is : 80.0
@@ -88,7 +88,7 @@ The Perimeter  of the rectangle is : 160.0
 
 //  Find the area of cylinder 
 
-/*
+
 
 class cylinder{
     public double radius;
@@ -116,7 +116,7 @@ public class class_and_objects {
         System.out.println(" The total volume of a cylinder is : "+ Cy.volume());
     }
 }
-*/
+
 
 
 //!<----- Output is ------->
@@ -128,7 +128,7 @@ The total lidArea  of a cylinder is : 314.2857142857143
 
 //Class Student data 
 
-/*
+
 
 //create a student class
 class studentData{
@@ -171,7 +171,7 @@ public class class_and_objects {
     }
 }
 
-*/
+
 
 
 
@@ -191,7 +191,7 @@ Grades of the student is : A
 // Find the area and the perimeter of the triangle using Data Hinding 
 //! Data hiding is all about get and set method to undersatand using 
 
-/*
+
 
 
 //Find the area and the perimeter of the rectangle
@@ -231,7 +231,7 @@ public class class_and_objects {
         System.out.println("Perimeter of the rectangle is :" + R.perimeter());
     }
 }
-*/
+
 
 //!<----- Output is -------->
 /*
@@ -241,13 +241,13 @@ Perimeter of the rectangle is :60
 
 */
 
-//!          <--------------------------------------------- Type of properties in Opps ------------------------------------------------------------>
+//!   <--------------------------------------------- Type of properties in Opps ------------------------------------------------------------>
 //1. Read and Writeable
 //2. Read Only
 //3. Write Only
 
 //! Read and Writeable Example 
-/* 
+
 class square{
     private int length; 
     //Here we are read and write both doing get and set
@@ -258,12 +258,12 @@ class square{
         length = l;
     }
 }
+//-------------------------------------------------------------- 
 
-*/
 
 
 //! 2. Read Only Example
-/* 
+
 class student{
     private int roll; 
     //Here we are read only property is used using get because we can't change roll no 
@@ -271,11 +271,8 @@ class student{
         return roll;
     }
 }
-*/
+//-------------------------------------------------------------- 
 
-//! 3. Write Only
-/* 
-*/
 
 
 
@@ -284,7 +281,7 @@ class student{
 Cylinder 
 */
 
-/*
+
 class cylinder{
     //properties are intialized 
     private int radius;
@@ -368,11 +365,11 @@ public class class_and_objects {
         System.out.println("Radius"+c.getRadius());
     }
 }
-*/
+
 
 //find the area and the perimeter of the rectangle using class and objects 
 
-/*
+
 class rectangle{
 //properties of the rectangles
     private int lenght;
@@ -434,7 +431,7 @@ public class class_and_objects {
         System.out.println("the perimeter of the rectangle is : " + r.perimeterRectangle());
     }
 }
-*/
 
 
-//------------------------------------- Learning Practice Questions And Solutions  ----------------------------------------------
+
+//-------------------------------------------------------------- Learning Practice Questions And Solutions  ----------------------------------------------
