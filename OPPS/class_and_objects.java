@@ -4,9 +4,9 @@
 
 /* -------------------------------------------------------------  How Write Classes    ------------------------------------------- */
 
-
+// Question :  How to find the circle Area Perimeter Circumference 
 class circle{
-    //How to find the circle Area Perimeter Circumference   
+  
 
     public double radius;
 
@@ -56,7 +56,7 @@ circumference of the circle1 is : 88.0
 
 
 
-//find the Area of A Rectangle
+// Question :  find the Area of A Rectangle
 
 //creating a class
 class Rectangle{
@@ -86,7 +86,7 @@ The Area of the rectangle is : 80.0
 The Perimeter  of the rectangle is : 160.0
 */
 
-//  Find the area of cylinder 
+// Question :  Find the area of cylinder 
 
 
 
@@ -126,7 +126,7 @@ The total lidArea  of a cylinder is : 314.2857142857143
  The total volume of a cylinder is : 3865.714285714286
 */
 
-//Class Student data 
+// Question :  Class Student data 
 
 
 
@@ -188,13 +188,13 @@ Grades of the student is : A
 
 //!<<<----------------------------- Data Hiding ----------------------------->>>
 
-// Find the area and the perimeter of the triangle using Data Hinding 
+// Question :  Find the area and the perimeter of the triangle using Data Hinding 
 //! Data hiding is all about get and set method to undersatand using 
 
 
 
 
-//Find the area and the perimeter of the rectangle
+//Question :  Find the area and the perimeter of the rectangle
 //create a Class
 class rectangle{
     //Both the properties are private it meens you can't access it from the outside of the class rectangle 
@@ -278,7 +278,7 @@ class student{
 
 //!<-------------------------------------------------------------- CONSTRUCTOR IN JAVA -------------------------------------------------------------->
 /* 
-Cylinder 
+Question :  Find Cylinder 
 */
 
 
@@ -367,7 +367,7 @@ public class class_and_objects {
 }
 
 
-//find the area and the perimeter of the rectangle using class and objects 
+// Question :  find the area and the perimeter of the rectangle using class and objects 
 
 
 class rectangle{
