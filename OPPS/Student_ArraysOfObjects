@@ -46,8 +46,8 @@ public class Student_ArraysOfObjects {
         //impliments of the arrays 
         Student subs[] = new Student[3];
         subs[0] = new Student("prashant kumar","s101","dataStructure",100,90);
-        subs[1] = new Student("Aman kumar","s101","Maths",100,84);
-        subs[2] = new Student("Rahul kumar","s101","Operatings ",100,96);
+        subs[1] = new Student("Aman kumar","s102","Maths",100,84);
+        subs[2] = new Student("Rahul kumar","s109","Operatings ",100,96);
 
         for(Student s : subs){
             System.out.println(s);
@@ -66,14 +66,14 @@ Student name : prashant kumar
  Result : true
 --------------------------------------------------------------------------------------------
  Student name : Aman kumar
- SubjectID : s101
+ SubjectID : s102
  Name : Maths
  maxMarks : 100
  MarksObtained : 84
  Result : true
 --------------------------------------------------------------------------------------------
  Student name : Rahul kumar
- SubjectID : s101
+ SubjectID : s109
  Name : Operatings 
  maxMarks : 100
  MarksObtained : 96
