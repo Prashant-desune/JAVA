@@ -3,11 +3,11 @@ class Lamp{
 boolean ison;
 
 //method to check is the lamp is on or not 
-void turnon(){
+public void turnon(){
     ison = true;
     System.out.println("Lamp LED is ture '(turn On)' ans False for '(turn Off)': " +ison);
 }
- void trunoff(){
+ public void trunoff(){
      ison = false;
      System.out.println("Lamp Halogen is ture '(turn On)' ans False for '(turn Off)': " +ison);
  }
